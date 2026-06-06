@@ -152,3 +152,18 @@ Self-learning CANBUS SAE J1939, MQTT and Telematics Systems.
 ## Telegram Alert
 
 ![Alert](alert.png)
+
+
+## Demo Videos
+
+### Demo 1 - CAN Bus J1939 Decoding
+
+A short demonstration of how I decode J1939 CAN messages and convert raw data into engineering values.
+
+https://drive.google.com/file/d/1FIqOyyu8uFpCbvV_N2UNnbVg5x24gt2q/view?usp=drivesdk
+
+### Demo 2 - End-to-End Vehicle Monitoring System
+
+A complete demonstration of the project from CAN Bus simulation to dashboard monitoring and Telegram alerts.
+
+https://drive.google.com/file/d/1CyV-6kXFwHmTgpQlI_nw35109WbvViyo/view?usp=drivesdk
