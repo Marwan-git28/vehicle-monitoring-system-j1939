@@ -128,4 +128,27 @@ Marwan Saputra
 
 Self-learning CANBUS SAE J1939, MQTT and Telematics Systems.
 
-Self-learning CANBUS J1939 and Telematics Enthusiast.
+
+## Hardware Setup
+
+![Hardware](hardware.png)
+
+## MQTT Architecture
+
+![MQTT](mqtt.png)
+
+## Node-RED Flow
+
+![NodeRED](node-red.png)
+
+## Real Time Dashboard
+
+![Dashboard](dashboard_realtime.png)
+
+## Historical Data
+
+![History](table.history.png)
+
+## Telegram Alert
+
+![Alert](alert.png)
