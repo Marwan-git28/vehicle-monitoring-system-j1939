@@ -2,7 +2,6 @@
 
 CANBUS J1939 Vehicle Monitoring System using MQTT, Python, InfluxDB, Grafana, Telegram Alert and Daily Email Report
 
--
 
 ## Overview
 
@@ -29,24 +28,6 @@ Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implement
 
 ---
 
-## Learning Journey
-
-- CANBUS Loopback Testing
-Started with MCP2515 loopback mode to understand basic CAN communication.
-
-- Sender and Receiver Communication
-Built a simple CAN sender and receiver using ESP32 and MCP2515 modules.
-
-- CAN Message Analysis
-Captured and analyzed CAN frames to understand message structure.
-
-- DBC Decoding Practice
-Learned PGN, SPN, start bit, signal length, scaling factor and offset.
-
-- Vehicle Monitoring System
-Integrated MQTT, Python vscode, InfluxDB, Grafana, Telegram alerts and Daily Report into a simple telematics simulation.
-
----
 
 ## System Architecture
 
@@ -136,9 +117,49 @@ Dashboard displays:
 ![Notification](Alert_Real_Time.png)
 ![Notification](Daily_report.png)
 
+---
 
+## Demo Videos
+
+### Demo 1 - Vehicle Monitoring System Canbus
+Menampilkan sistem monitoring kendaraan menggunakan ESP32, MQTT, Python, InfluxDB dan Grafana.
+Fitur meliputi real-time dashboard, Telegram Alert, Device Offline Monitoring dan Daily Email Report.
+
+https://drive.google.com/file/d/1CyV-6kXFwHmTgpQlI_nw35109WbvViyo/view?usp=drivesdk
+
+### Demo 2 - CANBUS J1939 Signal Decoding
+Menampilkan proses decoding CANBUS SAE J1939 menggunakan ESP32 dan MCP2515.
+Mencakup Raw CAN Data, PGN/SPN Analysis, Scaling Factor, Offset dan Little Endian untuk menghasilkan data RPM, Temperature dan Battery Voltase
+
+https://drive.google.com/file/d/1EaeOMzpNLMM91omMFGJg3jjwWiXpYgkp/view?usp=drivesdk
+
+## Demo 3 - Learning Journey (Node-RED & SQLite)
+Dokumentasi tahap awal pengembangan project menggunakan Node-RED dan SQLite.
+Mencakup MQTT, Node-RED, SQLite, SQLite History
+
+https://drive.google.com/file/d/1CyV-6kXFwHmTgpQlI_nw35109WbvViyo/view?usp=drivesdk
 
 ---
+
+## Learning Journey
+
+- CANBUS Loopback Testing
+Started with MCP2515 loopback mode to understand basic CAN communication.
+
+- Sender and Receiver Communication
+Built a simple CAN sender and receiver using ESP32 and MCP2515 modules.
+
+- CAN Message Analysis
+Captured and analyzed CAN frames to understand message structure.
+
+- DBC Decoding Practice
+Learned PGN, SPN, start bit, signal length, scaling factor and offset.
+
+- Vehicle Monitoring System
+Integrated MQTT, Python vscode, InfluxDB, Grafana, Telegram alerts and Daily Report into a simple telematics simulation.
+
+---
+
 ## Future Improvements
 
 - GPS Tracking Integration (NEO-6M)
@@ -153,18 +174,5 @@ Dashboard displays:
 Marwan Saputra
 
 Self-learning CANBUS SAE J1939, MQTT and Telematics Systems.
-
-
-## Demo Videos
-
-### Demo 1 - CAN Bus J1939 Decoding
-
-A short demonstration of how I decode J1939 CAN messages and convert raw data into engineering values.
-
-https://drive.google.com/file/d/1FIqOyyu8uFpCbvV_N2UNnbVg5x24gt2q/view?usp=drivesdk
-
-### Demo 2 - End-to-End Vehicle Monitoring System
-
-A complete demonstration of the project from CAN Bus simulation to dashboard monitoring and Telegram alerts.
-
+ry, Alert, Dashboard localhost.
 https://drive.google.com/file/d/1CyV-6kXFwHmTgpQlI_nw35109WbvViyo/view?usp=drivesdk
