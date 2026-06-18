@@ -103,11 +103,22 @@ Topics learned:
 ![CANBUS j1939 Signal Used](parse_canbus&verif.png)
 
 ---
-## Software Implentation
+## Comunication
+![Comunication](mqtt.png)
 
-![Software Implentation](PythonvsCODE.png)
+---
 
+## Software Implementation
 
+![Software Implementation](PythonvsCODE.png)
+
+---
+
+## Database
+
+![Database](InfluxDB.png)
+
+---
 
 ## Dashboard
 
@@ -119,6 +130,15 @@ Dashboard displays:
 
 ---
 
+## Notification
+- Telegram
+- SMTP Email
+![Notification](Alert_Real_Time.png)
+![Notification](Daily_report.png)
+
+
+
+---
 ## Future Improvements
 
 - GPS Tracking Integration (NEO-6M)
