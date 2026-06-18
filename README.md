@@ -125,7 +125,7 @@ Dashboard displays:
 Menampilkan sistem monitoring kendaraan menggunakan ESP32, MQTT, Python, InfluxDB dan Grafana.
 Fitur meliputi real-time dashboard, Telegram Alert, Device Offline Monitoring dan Daily Email Report.
 
-https://drive.google.com/file/d/1CyV-6kXFwHmTgpQlI_nw35109WbvViyo/view?usp=drivesdk
+https://drive.google.com/file/d/1mqGjV11kmgS-Nfb3fMuEY5UentAbEUOZ/view?usp=drivesdk
 
 ### Demo 2 - CANBUS J1939 Signal Decoding
 Menampilkan proses decoding CANBUS SAE J1939 menggunakan ESP32 dan MCP2515.
