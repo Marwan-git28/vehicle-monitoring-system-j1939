@@ -1,27 +1,31 @@
 # 🚜 Vehicle Monitoring System J1939
 
-CANBUS J1939 Vehicle Monitoring System using MQTT, Node-RED, SQLite and Telegram Alert
+CANBUS J1939 Vehicle Monitoring System using MQTT, Python, InfluxDB, Grafana, Telegram Alert and Daily Email Report
 
 -
 
 ## Overview
 
 This project was built to learn CANBUS SAE J1939 and basic telematics systems.
-I started from learning PGN, SPN, start bit, signal length, scaling factor and offset. After understanding the decoding process, I built a simple vehicle monitoring system using Arduino, MQTT, Node-RED, SQLite and Telegram alerts.
-Sensor values are simulated using potentiometers and sent through MQTT. The data is processed by Node-RED, stored in SQLite and displayed on a real-time dashboard.
-The main focus of this project is understanding CANBUS J1939 decoding concepts such as PGN, SPN, start bit, signal length, scaling factor and offset.
 
+Saya mulai dari belajar konsep PGN, SPN, Start Bit, Length, Scaling Factor, Offset, dan Little Endian pada CANBUS J1939. Setelah memahami proses decoding data CANBUS, saya membuat simulasi vehicle monitoring system menggunakan ESP32, MCP2515, MQTT, Python, InfluxDB, Grafana, Telegram Alert, dan Daily Email Report.
+Data RPM, Temperature, dan Fuel disimulasikan menggunakan 3 potentiometer. Data tersebut dikirim melalui MQTT, diproses menggunakan Python, disimpan ke InfluxDB, kemudian ditampilkan pada Grafana Dashboard secara real-time.
+
+Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implementasi alur data telematics sederhana mulai dari data acquisition, processing, storage, visualization, hingga alert notification.
 ---
 
 ## Features
 
-- Real-Time Monitoring Dashboard
-- MQTT Communication
-- SQLite Data Logging
-- History Monitoring (10 Minutes, 1 Hour, 1 Day)
-- Alert History (10 Minutes, 1 Hour, 1 Day)
+- CANBUS J1939 PGN/SPN Decoding
+- ESP32 Sender & Receiver Communication
+- MQTT Data Transmission
+- Python MQTT Subscriber
+- InfluxDB Data Storage
+- Grafana Real-Time Dashboard
+- RPM, Temperature and Fuel Monitoring
 - Telegram Alert Notification
-- CANBUS J1939 Decoding Study
+- Daily Email Report
+- CANBUS Message Investigation & Validation
 
 ---
 
@@ -40,41 +44,31 @@ Captured and analyzed CAN frames to understand message structure.
 Learned PGN, SPN, start bit, signal length, scaling factor and offset.
 
 - Vehicle Monitoring System
-Integrated MQTT, Node-RED, SQLite and Telegram alerts into a simple telematics simulation.
+Integrated MQTT, Python vscode, InfluxDB, Grafana, Telegram alerts and Daily Report into a simple telematics simulation.
 
 ---
 
 ## System Architecture
 
-Arduino + Potentiometers
-Generate RPM, Temp, Fuel
-↓
-MQTTX
-↓
-broker.emqx.io
-↓
-Node-RED
-↓
-Dashboard Monitoring
-↓
-SQLite History
-(10 Minutes, 1 Hour, 1 Day)
-↓
-Telegram Alert
-(10 Minutes, 1 Hour, 1 Day)
+![Architecture](Architectur_canbus.png)
 
 ---
 
 ## Technologies
 
-- Arduino
+- ESP32
+- MCP2515 CANBUS Module
+- Arduino IDE
+- CANBUS SAE J1939
 - MQTT
 - MQTTX
-- EMQX
-- Node-RED
-- SQLite
+- EMQX Broker
+- Python
+- VS Code
+- InfluxDB
+- Grafana
 - Telegram Bot
-- CANBUS SAE J1939
+- SMTP Email
 
 ---
 
@@ -104,12 +98,7 @@ Topics learned:
 
 Dashboard displays:
 
-- RPM
-- Temperature
-- Fuel
-- Historical Data
-- Alert History
-- Real-Time Monitoring
+![Dashboard](Dashboard_vehicle_data)
 
 ---
 
