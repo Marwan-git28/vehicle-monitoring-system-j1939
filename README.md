@@ -174,5 +174,3 @@ Integrated MQTT, Python vscode, InfluxDB, Grafana, Telegram alerts and Daily Rep
 Marwan Saputra
 
 Self-learning CANBUS SAE J1939, MQTT and Telematics Systems.
-ry, Alert, Dashboard localhost.
-https://drive.google.com/file/d/1CyV-6kXFwHmTgpQlI_nw35109WbvViyo/view?usp=drivesdk
