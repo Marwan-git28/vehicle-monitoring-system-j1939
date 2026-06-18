@@ -13,6 +13,20 @@ Data RPM, Temperature, dan Fuel disimulasikan menggunakan 3 potentiometer. Data 
 Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implementasi alur data telematics sederhana mulai dari data acquisition, processing, storage, visualization, hingga alert notification.
 ---
 
+## Project Highlights
+
+- CANBUS SAE J1939 Decoding & PGN/SPN Analysis
+- ESP32 + MCP2515 Vehicle Data Simulation
+- MQTT Telemetry Communication
+- Python Data Processing & Monitoring
+- InfluxDB Time-Series Database
+- Grafana Real-Time Dashboard
+- Telegram Alert Notification
+- Daily Email Report Automation
+- CANBUS Message Investigation & Validation.
+
+---
+
 ## Features
 
 - CANBUS J1939 PGN/SPN Decoding
