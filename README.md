@@ -72,7 +72,16 @@ Integrated MQTT, Python vscode, InfluxDB, Grafana, Telegram alerts and Daily Rep
 
 ---
 
-## J1939 Signals Used
+## Hardware 
+-ESP32
+-MCP2515
+-3POTENSIOMETERS
+
+![Hardware](hardware.png)
+
+
+
+## CANBUS J1939 Signals Used
 
 - PGN 61444 - SPN 190 (Engine RPM)
 - PGN 65262 - SPN 110 (Coolant Temperature)
@@ -91,24 +100,32 @@ Topics learned:
 - Scaling Factor
 - Offset
 - Raw CAN Decoding
+![CANBUS j1939 Signal Used](parse_canbus&verif.png)
 
 ---
+## Software Implentation
+
+![Software Implentation](PythonvsCODE.png)
+
+
 
 ## Dashboard
 
 Dashboard displays:
 
-![Dashboard](Dashboard_vehicle_data)
+![Dashboard](Dashboard_vehicle_data.png)
+![Dashboard](Dashboard_RPM.Data.png)
+![Dashboard](Dashboard_RPM,Data2.png)
 
 ---
 
 ## Future Improvements
 
-- Real CANBUS Interface
-- GPS Tracking
-- Fleet Monitoring
-- Maintenance Analytics
-- Heavy Equipment Telematics
+- GPS Tracking Integration (NEO-6M)
+- Real CANBUS Vehicle Interface
+- Fleet Monitoring Dashboard
+- Advanced Alert & Notification System
+- Heavy Equipment Telematics Aplication
 
 ---
 
@@ -116,31 +133,6 @@ Dashboard displays:
 Marwan Saputra
 
 Self-learning CANBUS SAE J1939, MQTT and Telematics Systems.
-
-
-## Hardware Setup
-
-![Hardware](hardware.png)
-
-## MQTT Architecture
-
-![MQTT](mqtt.png)
-
-## Node-RED Flow
-
-![NodeRED](node-red.png)
-
-## Real Time Dashboard
-
-![Dashboard](dashboard_realtime.png)
-
-## Historical Data
-
-![History](table.history.png)
-
-## Telegram Alert
-
-![Alert](alert.png)
 
 
 ## Demo Videos
