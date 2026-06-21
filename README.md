@@ -7,8 +7,8 @@ CANBUS J1939 Vehicle Monitoring System using MQTT, Python, InfluxDB, Grafana, Te
 
 This project was built to learn CANBUS SAE J1939 and basic telematics systems.
 
-Saya mulai dari belajar konsep PGN, SPN, Start Bit, Length, Scaling Factor, Offset, dan Little Endian pada CANBUS J1939. Setelah memahami proses decoding data CANBUS, saya membuat simulasi vehicle monitoring system menggunakan ESP32, MCP2515, MQTT, Python, InfluxDB, Grafana, Telegram Alert, dan Daily Email Report.
-Data RPM, Temperature, dan Fuel disimulasikan menggunakan 3 potentiometer. Data tersebut dikirim melalui MQTT, diproses menggunakan Python, disimpan ke InfluxDB, kemudian ditampilkan pada Grafana Dashboard secara real-time.
+Saya mulai dari belajar konsep PGN, SPN, Start Bit, Length, Scaling Factor, Offset, dan Little Endian pada CANBUS J1939. Setelah memahami proses decoding data CANBUS, saya membuat simulasi vehicle monitoring system menggunakan ESP32, MCP2515, GPS NEO 6M, MQTT, Python, InfluxDB, Grafana, Telegram Alert, dan Daily Email Report.
+Data RPM, Temperature, dan Fuel disimulasikan menggunakan 3 potentiometer & GPS Neo-6M. Data tersebut dikirim melalui MQTT, diproses menggunakan Python, disimpan ke InfluxDB, kemudian ditampilkan pada Grafana Dashboard secara real-time.
 
 Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implementasi alur data telematics sederhana mulai dari data acquisition, processing, storage, visualization, hingga alert notification.
 ---
@@ -77,8 +77,9 @@ Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implement
 -3POTENSIOMETERS
 
 ![Hardware](hardware.png)
+![Hardware](Hradware_Gps.png)
 
-
+---
 
 ## CANBUS J1939 Signals Used
 
@@ -115,7 +116,7 @@ Topics learned:
 
 ## Database
 
-![Database](InfluxDB.png)
+![Database](InfluxDB.V2.png)
 
 ---
 
@@ -124,6 +125,7 @@ Topics learned:
 Dashboard displays:
 
 ![Dashboard](Dashboard_vehicle_data.png)
+![Dashboard](DASHBOARD.GPS_VEHICLE.png)
 ![Dashboard](Dashboard_RPM.Data.png)
 ![Dashboard](Dashboard_RPM,Data2.png)
 
@@ -143,7 +145,7 @@ Dashboard displays:
 Menampilkan sistem monitoring kendaraan menggunakan ESP32, MQTT, Python, InfluxDB dan Grafana.
 Fitur meliputi real-time dashboard, Telegram Alert, Device Offline Monitoring dan Daily Email Report.
 
-https://drive.google.com/file/d/1mqGjV11kmgS-Nfb3fMuEY5UentAbEUOZ/view?usp=drivesdk
+https://drive.google.com/file/d/1by9F7pkbjezpT12ql_jrjIAEONjT2hCh/view?usp=drivesdk
 
 ### Demo 2 - CANBUS J1939 Signal Decoding
 Menampilkan proses decoding CANBUS SAE J1939 menggunakan ESP32 dan MCP2515.
