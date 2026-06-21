@@ -23,6 +23,8 @@ Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implement
 - Grafana Real-Time Dashboard
 - Telegram Alert Notification
 - Daily Email Report Automation
+- GPS Tracking Integration
+- Real-Time Location Monitoring
 - CANBUS Message Investigation & Validation.
 
 ---
@@ -36,6 +38,7 @@ Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implement
 - InfluxDB Data Storage
 - Grafana Real-Time Dashboard
 - RPM, Temperature and Fuel Monitoring
+- GPS Tracking (Latitude, Longitude, Speed, Satelit)
 - Telegram Alert Notification
 - Daily Email Report
 - CANBUS Message Investigation & Validation
@@ -55,6 +58,7 @@ Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implement
 - MCP2515 CANBUS Module
 - Arduino IDE
 - CANBUS SAE J1939
+- NEO-6M GPS Module
 - MQTT
 - MQTTX
 - EMQX Broker
@@ -176,7 +180,6 @@ Integrated MQTT, Python vscode, InfluxDB, Grafana, Telegram alerts and Daily Rep
 
 ## Future Improvements
 
-- GPS Tracking Integration (NEO-6M)
 - Real CANBUS Vehicle Interface
 - Fleet Monitoring Dashboard
 - Advanced Alert & Notification System
