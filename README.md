@@ -48,7 +48,7 @@ Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implement
 
 ## System Architecture
 
-![Architecture](Architectur_canbus.png)
+![Architecture](canbus_telematics_architecture.png)
 
 ---
 
