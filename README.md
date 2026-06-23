@@ -79,6 +79,7 @@ Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implement
 
 ![Hardware](hardware.png)
 ![Hardware](Hradware_Gps.png)
+![Hardware](Hardware_mode_normal.png)
 
 ---
 
@@ -101,6 +102,8 @@ Topics learned:
 - Scaling Factor
 - Offset
 - Raw CAN Decoding
+
+![CANBUS j1939 Signal Used](Mode_Normal.png)
 ![CANBUS j1939 Signal Used](parse_canbus&verif.png)
 
 ---
