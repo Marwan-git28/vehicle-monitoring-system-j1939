@@ -148,10 +148,10 @@ Fitur meliputi real-time dashboard, Telegram Alert, Device Offline Monitoring da
 https://drive.google.com/file/d/1by9F7pkbjezpT12ql_jrjIAEONjT2hCh/view?usp=drivesdk
 
 ### Demo 2 - CANBUS J1939 Signal Decoding
-Menampilkan proses decoding CANBUS SAE J1939 menggunakan ESP32 dan MCP2515.
-Mencakup Raw CAN Data, PGN/SPN Analysis, Scaling Factor, Offset dan Little Endian untuk menghasilkan data RPM, Temperature dan Battery Voltase
+Menampilkan proses komunikasi CANBUS SAE J1939 menggunakan ESP32 dan MCP2515 dalam mode Sender dan Receiver melalui 
+CAN H dan CAN L. Mencakup pembacaan Raw CAN Data, DLC 8, proses parsing, Little Endian, Scaling Factor dan Offset untuk menghasilkan data RPM, Temperature dan Battery Voltage.
 
-https://drive.google.com/file/d/1EaeOMzpNLMM91omMFGJg3jjwWiXpYgkp/view?usp=drivesdk
+https://drive.google.com/file/d/1R2ojuFcts_9QkfGjfyQRzUsHJFUPbgFQ/view?usp=drivesdk
 
 ## Demo 3 - Learning Journey (Node-RED & SQLite)
 Dokumentasi tahap awal pengembangan project menggunakan Node-RED dan SQLite.
