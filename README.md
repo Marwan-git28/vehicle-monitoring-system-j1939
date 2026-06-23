@@ -74,6 +74,7 @@ Project ini berfokus pada pemahaman proses decoding CANBUS J1939 serta implement
 ## Hardware 
 -ESP32
 -MCP2515
+-Sender-Receiver
 -3POTENSIOMETERS
 
 ![Hardware](hardware.png)
